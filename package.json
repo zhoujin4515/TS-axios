@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "typescript",
   "version": "0.0.0",
   "description": "",
@@ -10,6 +11,19 @@
     "dist"
   ],
   "author": "周进 <913751531@qq.com>",
+=======
+  "name": "--libraryname--",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "dist/--libraryname--.umd.js",
+  "module": "dist/--libraryname--.es5.js",
+  "typings": "dist/types/--libraryname--.d.ts",
+  "files": [
+    "dist"
+  ],
+  "author": "--username-- <--usermail-->",
+>>>>>>> e2f3787e3ea9e95d91b7aeac8773b835174bac92
   "repository": {
     "type": "git",
     "url": ""
@@ -32,6 +46,10 @@
     "semantic-release": "semantic-release",
     "semantic-release-prepare": "ts-node tools/semantic-release-prepare",
     "precommit": "lint-staged",
+<<<<<<< HEAD
+=======
+    "postinstall": "ts-node tools/init",
+>>>>>>> e2f3787e3ea9e95d91b7aeac8773b835174bac92
     "travis-deploy-once": "travis-deploy-once"
   },
   "lint-staged": {
@@ -116,8 +134,13 @@
     "tslint-config-standard": "^8.0.1",
     "typedoc": "^0.12.0",
     "typescript": "^3.0.3"
+<<<<<<< HEAD
   },
   "dependencies": {
     "cnpm": "^6.1.1"
   }
 }
+=======
+  }
+}
+>>>>>>> e2f3787e3ea9e95d91b7aeac8773b835174bac92
